@@ -50,8 +50,9 @@ PORT=5000
 MONGO_URI=<your_mongo_connection_string>
 JWT_SECRET=<your_secret_key>
 CLIENT_URL=http://localhost:3000
-EMAIL_USER=<your_email>
-EMAIL_PASS=<your_email_password>
+MAILTRAP_TOKEN = <mailtrap_token>
+MAILTRAP_ENDPOINT=https://send.api.mailtrap.io/
+
 
 ### 4.Build & Start the Project
 
